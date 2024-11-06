@@ -1,0 +1,49 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    background-image: url('./img/hierba.jpg');
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    border: 1px solid rgb(193, 202, 209);
+    background-color: rgb(108, 160, 95);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled{
+    background-color: rgb(108, 160, 95, 0.8);
+    color: lightgray;
+}
+
+.scene {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0px 0px;
+    background-image: url('./img/white2.png');
+}
+
+#acierto{
+    color: rgb(253, 0, 51);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#mejor{
+    color: black;
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
