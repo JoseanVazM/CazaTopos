@@ -12,7 +12,7 @@ $(document).ready(function(){
         $("span").each(function(){$(this).text($(this).attr("id") == "result" ? puntos : cont_tiempo)});
     }
 
-    $("#play").click(function(){
+    $("#play").mousedown(function(){
         reiniciar();
         $("#play").attr("disabled",true);
         timer = setInterval(tiempo,1000);
